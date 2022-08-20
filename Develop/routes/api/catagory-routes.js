@@ -50,7 +50,7 @@ router.post('/', (req, res) => {
         res.status(500).json(err);
       });
 });
-
+//maybe add async function if update doesnt work
 router.put('/:id', (req, res) => {
   // update a category by its `id` value
   Category.update(req.body, {
