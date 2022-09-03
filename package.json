@@ -1,5 +1,5 @@
 {
-  "name": "start",
+  "name": "mysql2",
   "version": "1.0.0",
   "description": "MySQL database",
   "main": "index.js",
